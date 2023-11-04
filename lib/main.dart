@@ -36,8 +36,6 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           backgroundColor: Colors.red,
         ),
-        body: Container(
-          child: Text("data"),
-        ));
+        body: const Text("data"));
   }
 }
